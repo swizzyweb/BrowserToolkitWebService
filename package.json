@@ -1,0 +1,26 @@
+{
+  "name": "@swizzyweb/browser-toolkit-web-service",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./node_modules ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Gallagher",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@swizzyweb/browser-toolkit": "^1.0.0",
+    "@swizzyweb/swizzy-web-service": "^0.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
