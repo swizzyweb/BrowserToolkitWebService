@@ -1,7 +1,7 @@
 {
   "name": "@swizzyweb/browser-toolkit-web-service",
   "version": "0.1.0",
-  "description": "",
+  "description": "SwizzyDynServe webservice for hosting browser-toolkit-frontend",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
   "type": "commonjs",
@@ -18,9 +18,24 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@swizzyweb/browser-toolkit": "^1.0.0",
+    "@swizzyweb/browser-toolkit": "^0.1.0",
     "@swizzyweb/swizzy-web-service": "^0.1.0",
     "ejs": "^3.1.10",
     "express": "^4.21.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swizzyweb/BrowserToolkitWebService.git"
+  },
+  "keywords": [
+    "browser",
+    "toolkit",
+    "swizzy",
+    "web",
+    "service"
+  ],
+  "bugs": {
+    "url": "https://github.com/swizzyweb/BrowserToolkitWebService/issues"
+  },
+  "homepage": "https://github.com/swizzyweb/BrowserToolkitWebService#readme"
 }
